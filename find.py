@@ -1,6 +1,8 @@
 ﻿import requests
 from bs4 import BeautifulSoup
 
+# 20200611 For test github check in function.
+
 resp = requests.get('http://jwlin.github.io/py-scraping-analysis-book/ch2/blog/blog.html')
 soup = BeautifulSoup(resp.text, 'html.parser')
 
